@@ -1,4 +1,65 @@
 {
   "version": 1,
-  "certificados": []
+  "certificados": [
+    {
+      "folio": "IA-GLF-001",
+      "estado": "emitido",
+      "sha256": "fd6af752222a1ee94dc9e8ca4a44bdcf9b583d60a74128308e0387e2b1bd1af2"
+    },
+    {
+      "folio": "IA-GLF-002",
+      "estado": "emitido",
+      "sha256": "680f114bcbce757144e3a52a95e1bafccf0839ab835cfac172885dd510e83033"
+    },
+    {
+      "folio": "IA-GLF-003",
+      "estado": "emitido",
+      "sha256": "531e408cc6fc1a2803893462fe2cc94038f3ee96250957b734057a6bf7f5d010"
+    },
+    {
+      "folio": "IA-GLF-004",
+      "estado": "emitido",
+      "sha256": "29a7bbd73e38c4c881e18ea7c7943df80bcd60e135e32a3d4226cd85e3f4b510"
+    },
+    {
+      "folio": "IA-GLF-005",
+      "estado": "emitido",
+      "sha256": "f7829c4fd934153a8f52f484209a59c32d43b5346364ee0dc3d12ce8b61f5e6c"
+    },
+    {
+      "folio": "IA-GLF-006",
+      "estado": "emitido",
+      "sha256": "d7423fcfcfb6374fda009d505fb837a1d049c833df3d226cb0ab7931437c7328"
+    },
+    {
+      "folio": "IA-GLF-007",
+      "estado": "emitido",
+      "sha256": "96105f4cbda7adf43284f2de5fc01feed7c681af5aa9f8b500ca34c1ba37a278"
+    },
+    {
+      "folio": "IA-GLF-008",
+      "estado": "emitido",
+      "sha256": "e6e4d68e58f7f8e42605987e40f729f137d0ccacf6437208938f5d51c23e0188"
+    },
+    {
+      "folio": "IA-GLF-009",
+      "estado": "emitido",
+      "sha256": "792d16cb403118406cd701cc79f4df72c7c7432ed298c1aa6f06645247418d6d"
+    },
+    {
+      "folio": "IA-GLF-010",
+      "estado": "emitido",
+      "sha256": "3057d4646d75434b8515a068078a70f7ec6f738775ddab80a7c115b72e4db56b"
+    },
+    {
+      "folio": "IA-GLF-011",
+      "estado": "emitido",
+      "sha256": "5f9f28c295a4bf14ca0e610e9f30549a8e0f5d8b62ce1e6a14733e4bad2165ec"
+    },
+    {
+      "folio": "IA-GLF-012",
+      "estado": "emitido",
+      "sha256": "058b9c77d5abd6ce7576f56b33e67f2f514759033141371a3ed65f76f98eea9a"
+    }
+  ]
 }

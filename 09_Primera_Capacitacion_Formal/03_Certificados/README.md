@@ -1,5 +1,5 @@
 # Consulta de certificados
 
-Esta página pública no almacena nombres ni originales para firma. El QR apunta a esta ruta con el parámetro `folio`. El registro permanece vacío hasta incorporar certificados efectivamente firmados.
+El QR impreso abre la consulta pública con el parámetro `folio`. El registro contiene los folios emitidos y las huellas SHA-256 de los PDF firmados. No muestra nombres ni otros datos personales.
 
-Después de recibir los PDF firmados: verificar la firma electrónica, comprobar el folio y la identidad en el registro privado, calcular el SHA-256 del PDF final sin volver a guardarlo, y añadir únicamente `folio`, `estado: "emitido"`, `sha256` y, si corresponde, `descarga` (URL de Drive con acceso restringido al destinatario). No subir PDF nominales ni identificaciones al repositorio. Estados de baja: `revocado`, `sustituido` o `anulado`, sin datos de descarga. Un folio registrado y una huella coincidente no sustituyen la validación independiente de la firma.
+El [lote firmado cifrado](./Certificados_GLF_P2_Firmados_Cifrado.rar) contiene los 12 PDF originales de la emisión. La contraseña se facilita por separado. Para cotejar tu PDF, abre [el buscador](https://soulkernel.github.io/GLF.P2/09_Primera_Capacitacion_Formal/03_Certificados/) e introduce el folio. Un archivo coincidente con el registro no sustituye la validación de la firma electrónica en FirmaEC.
