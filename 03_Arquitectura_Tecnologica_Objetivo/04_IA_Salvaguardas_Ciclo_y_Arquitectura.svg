@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 905" width="1560" height="905" role="img"><title>IA Salvaguardas y continuidad del expediente</title><rect width="1560" height="905" fill="#FFFFFF"/>
+<text x="55" y="65" font-family="Arial,sans-serif" font-size="39" font-weight="700" fill="#132A43">IA Salvaguardas y continuidad del expediente</text>
+<text x="55" y="101" font-family="Arial,sans-serif" font-size="24" font-weight="400" fill="#52677C">Estado de referencia al 7 de noviembre de 2026</text>
+<line x1="485" y1="197" x2="565" y2="197" stroke="#51677E" stroke-width="5"/><polygon points="565.0,197.0 549.0,190.0 549.0,204.0" fill="#51677E"/>
+<line x1="995" y1="197" x2="1075" y2="197" stroke="#51677E" stroke-width="5"/><polygon points="1075.0,197.0 1059.0,190.0 1059.0,204.0" fill="#51677E"/>
+<line x1="780" y1="269" x2="780" y2="327" stroke="#51677E" stroke-width="5"/><polygon points="780.0,327.0 787.0,311.0 773.0,311.0" fill="#51677E"/>
+<line x1="1290" y1="269" x2="1290" y2="508" stroke="#51677E" stroke-width="5"/><polygon points="1290.0,508.0 1297.0,492.0 1283.0,492.0" fill="#51677E"/>
+<line x1="1075" y1="579" x2="995" y2="579" stroke="#51677E" stroke-width="5"/><polygon points="995.0,579.0 1011.0,586.0 1011.0,572.0" fill="#51677E"/>
+<line x1="565" y1="579" x2="485" y2="579" stroke="#51677E" stroke-width="5"/><polygon points="485.0,579.0 501.0,586.0 501.0,572.0" fill="#51677E"/>
+<rect x="55" y="126" width="430" height="143" rx="15" fill="#EAF3FF" stroke="#2B63A1" stroke-width="3"/>
+<text x="73" y="166" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#132A43">1  Convocatoria y nota conceptual</text>
+<text x="73" y="203" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">Reglas por convocatoria · expediente</text>
+<text x="73" y="230" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">versión enviada · acuse y anexos</text>
+<rect x="565" y="126" width="430" height="143" rx="15" fill="#EAF3FF" stroke="#2B63A1" stroke-width="3"/>
+<text x="583" y="166" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#132A43">2  Examen y revisión técnica</text>
+<text x="583" y="203" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">Cribado A–G · exclusiones</text>
+<text x="583" y="230" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">riesgos por actividad · subsanación</text>
+<rect x="1075" y="126" width="430" height="143" rx="15" fill="#FFF2DF" stroke="#A26018" stroke-width="3"/>
+<text x="1093" y="166" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#132A43">3  Preselección y acceso</text>
+<text x="1093" y="203" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">Decisión y habilitación de fase 2</text>
+<text x="1093" y="230" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">formato y operación por acordar</text>
+<rect x="565" y="327" width="430" height="117" rx="15" fill="#EAF3FF" stroke="#2B63A1" stroke-width="3"/>
+<text x="583" y="367" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#132A43">IA  Consulta de salvaguardas</text>
+<text x="583" y="404" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">E5 · BM25 con Qwen · citas</text>
+<text x="583" y="431" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">revisión humana de observaciones</text>
+<rect x="1075" y="508" width="430" height="143" rx="15" fill="#E7F5EF" stroke="#24775F" stroke-width="3"/>
+<text x="1093" y="548" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#132A43">4  Propuesta completa y PGAS</text>
+<text x="1093" y="585" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">Evaluación A–Q · medidas e indicadores</text>
+<text x="1093" y="612" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">debida diligencia por canal separado</text>
+<rect x="565" y="508" width="430" height="143" rx="15" fill="#E7F5EF" stroke="#24775F" stroke-width="3"/>
+<text x="583" y="548" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#132A43">5  Decisión y formalización</text>
+<text x="583" y="585" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">Recomendación del Comité · Junta</text>
+<text x="583" y="612" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">contrato · anexos · línea base</text>
+<rect x="55" y="508" width="430" height="143" rx="15" fill="#E7F5EF" stroke="#24775F" stroke-width="3"/>
+<text x="73" y="548" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#132A43">6  Ejecución, seguimiento y cierre</text>
+<text x="73" y="585" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">Hitos · finanzas · evidencias</text>
+<text x="73" y="612" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">medidas ambientales y resultados</text>
+<rect x="55" y="724" width="1450" height="103" rx="15" fill="#EFF3F8" stroke="#52677C" stroke-width="3"/>
+<text x="73" y="764" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#132A43">Prototipos de prueba → servicios compartidos → sistema integrado</text>
+<text x="73" y="801" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">Canales y permisos por rol · datos maestros e identificadores · expediente y versiones · controles financieros · auditoría y recuperación</text>
+<rect x="55" y="857" width="21" height="21" rx="4" fill="#EAF3FF" stroke="#2B63A1" stroke-width="3"/>
+<text x="89" y="875" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">Publicado y probado</text>
+<rect x="540" y="857" width="21" height="21" rx="4" fill="#FFF2DF" stroke="#A26018" stroke-width="3"/>
+<text x="574" y="875" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">Base técnica en prueba</text>
+<rect x="1025" y="857" width="21" height="21" rx="4" fill="#E7F5EF" stroke="#24775F" stroke-width="3"/>
+<text x="1059" y="875" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#132A43">Diseño objetivo</text>
+</svg>

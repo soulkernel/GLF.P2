@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="690" viewBox="0 0 1180 690">
+  <defs>
+    <marker id="punta" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#405367"/>
+    </marker>
+  </defs>
+  <rect width="1180" height="690" fill="white"/>
+  <g fill="none" stroke="#405367" stroke-width="3.5" marker-end="url(#punta)">
+    <path d="M300 141 V203"/>
+    <path d="M880 141 V203"/>
+    <path d="M760 141 V173 H425 V203"/>
+    <path d="M300 301 V333 H470 V366"/>
+    <path d="M880 301 V333 H710 V366"/>
+    <path d="M470 465 V501 H300 V533"/>
+    <path d="M710 465 V501 H880 V533"/>
+  </g>
+  <g stroke-width="2.2">
+    <rect x="74" y="48" width="452" height="93" rx="9" fill="#D6F0E7" stroke="#47826F"/>
+    <rect x="654" y="48" width="452" height="93" rx="9" fill="#D6F0E7" stroke="#47826F"/>
+    <rect x="74" y="205" width="452" height="96" rx="9" fill="#D8E8FB" stroke="#527FAE"/>
+    <rect x="654" y="205" width="452" height="96" rx="9" fill="#D8E8FB" stroke="#527FAE"/>
+    <rect x="256" y="368" width="668" height="97" rx="9" fill="#FFEAC2" stroke="#9C7530"/>
+    <rect x="74" y="535" width="452" height="95" rx="9" fill="#EEE0F7" stroke="#805E9B"/>
+    <rect x="654" y="535" width="452" height="95" rx="9" fill="#EEE0F7" stroke="#805E9B"/>
+  </g>
+  <g fill="#111111" font-family="Arial, sans-serif" text-anchor="middle">
+    <g font-size="26" font-weight="700">
+      <text x="300" y="87">Postulantes y beneficiarios</text>
+      <text x="880" y="87">Personal interno</text>
+      <text x="300" y="246">Subvenciones</text>
+      <text x="880" y="246">Proyectos de gobierno</text>
+      <text x="590" y="408">Servicios comunes</text>
+      <text x="300" y="575">Datos y documentos</text>
+      <text x="880" y="575">Gobierno y protección</text>
+    </g>
+    <g font-size="20">
+      <text x="300" y="118">Presentación y subsanación</text>
+      <text x="880" y="118">Revisión y seguimiento por rol</text>
+      <text x="300" y="278">Convocatoria, ejecución y cierre</text>
+      <text x="880" y="278">Compra, recepción y donación</text>
+      <text x="590" y="440">Cumplimiento, finanzas y archivo</text>
+      <text x="300" y="607">Identificadores, versiones y evidencias</text>
+      <text x="880" y="607">Decisiones, accesos, auditoría y respaldo</text>
+    </g>
+  </g>
+</svg>
