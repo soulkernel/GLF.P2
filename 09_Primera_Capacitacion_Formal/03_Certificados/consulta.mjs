@@ -1,6 +1,23 @@
 import {normalizeFolio,restrictedDownload,validateRegistry,hashPDF} from "./registro.mjs";
 const $=id=>document.getElementById(id);
 const form=$("consulta"),input=$("folio"),status=$("estado"),download=$("descarga"),pick=$("pdf"),result=$("resultado"),box=$("cotejo");
+const rows = [...document.querySelectorAll("#participantes [data-folio]")];
+const entries = new Map(rows.map(row => [row.dataset.folio, row.querySelector("a[download]")]));
+const nameInput = $("nombre");
+const normalizeName = value => value.toLowerCase().normalize("NFD").replace(/\p{M}/gu, "");
+const names = rows.map(row => [row, normalizeName(row.querySelector("strong").textContent)]);
+$("filtro-certificados").hidden = false;
+nameInput.addEventListener("input", () => {
+ const terms = normalizeName(nameInput.value).trim().split(/\s+/).filter(Boolean);
+ let matches = 0;
+ for (const [row, name] of names) {
+  const visible = terms.every(term => name.includes(term));
+  row.hidden = !visible;
+  if (visible) matches++;
+ }
+ $("conteo").textContent = matches === 0 ? "No se encontraron certificados con ese nombre." :
+  matches === 1 ? "1 certificado disponible" : `${matches} certificados disponibles`;
+});
 let active=null,seq=0;
 async function lookup(event){
  event?.preventDefault();const run=++seq;
@@ -16,8 +33,13 @@ async function lookup(event){
   if(r.estado!=="emitido"){status.textContent=`Folio ${folio}: ${r.estado}. No hay descarga disponible.`;return;}
   status.textContent=`Folio ${folio}: registrado como emitido.`;
   active=r;box.hidden=false;
-  const url=restrictedDownload(r.descarga);
-  if(url){download.href=url;download.hidden=false;}
+  const listed = entries.get(folio);
+  const url = listed?.href ?? restrictedDownload(r.descarga);
+  if (url) {
+   download.href = url;
+   download.toggleAttribute("download", Boolean(listed));
+   download.hidden = false;
+  }
  }catch{if(run===seq)status.textContent="El registro no se pudo consultar. Intenta más tarde.";}
 }
 form.addEventListener("submit",lookup);

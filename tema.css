@@ -1,0 +1,50 @@
+:root{color-scheme:light;--ink:#173b43;--muted:#435d70;--navy:#0e293e;--teal:#065f46;--mist:#f3f7f8;--line:#dce6e8;--white:#fff;font-family:"Segoe UI",Arial,sans-serif}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--mist);line-height:1.55}
+a{color:var(--teal)}a:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid #bc681d;outline-offset:4px}
+.skip{position:absolute;left:1rem;top:-10rem;padding:.6rem 1rem;background:white;color:var(--navy);z-index:4}.skip:focus{top:1rem}
+.hero{background:linear-gradient(110deg,#064e3b,#115e59 55%,#164e63);color:#fff;border-bottom:5px solid #319989}
+.hero-inner{max-width:1200px;margin:auto;padding:1.5rem clamp(1rem,4vw,3.4rem) 1.55rem}
+.brand{display:inline-flex;align-items:center;gap:.55rem;margin:0;font-size:.83rem;font-weight:700;letter-spacing:.05em;color:#c6f0e6}
+.brand{text-decoration:none}
+.brand:hover{text-decoration:underline}
+.brand::before{content:"";display:inline-block;width:.76rem;height:.76rem;border:2px solid #79d5bc;border-radius:4px}
+.hero h1{font-size:clamp(1.62rem,2.7vw,2.05rem);line-height:1.16;font-weight:650;letter-spacing:-.02em;margin:.55rem 0 .23rem}
+.hero .subtitle{margin:0 0 .38rem;max-width:790px;font-size:clamp(1.02rem,1.65vw,1.31rem);line-height:1.35;font-weight:600;color:#fff}
+.hero .lead{max-width:780px;font-size:.97rem;color:#e0f2ef;margin:0}
+.hero-links{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:.9rem}.hero-links a{color:#fff;text-decoration:none;border:1px solid #78a5a8;border-radius:7px;padding:.6rem .85rem;font-size:.88rem;font-weight:700}
+.hero-links a:hover{background:#ffffff26}.hero-links a:first-child{background:#e4f6f0;border-color:#e4f6f0;color:#123a3c}
+.primary,.secondary{font-size:.79rem;font-weight:700;white-space:nowrap;text-decoration:none;padding:.34rem .55rem;border-radius:6px;border:1px solid #bcd4d4}
+.primary{background:var(--teal);color:white;border-color:var(--teal)}.primary:hover{background:#07574f}.secondary:hover{background:#e6f4f0}
+.site-footer{max-width:1200px;margin:auto;padding:0 clamp(1rem,4vw,3.4rem) 2rem;color:var(--muted);font-size:.86rem}
+.site-footer p{margin:0;border-top:1px solid var(--line);padding-top:1rem}
+button:focus-visible,[tabindex="0"]:focus-visible{outline:3px solid #d39313;outline-offset:3px}
+
+[hidden]{display:none!important}
+.page-content{max-width:1200px;margin:auto;padding:1.5rem clamp(1rem,4vw,3.4rem) 2.4rem}
+.panel{background:white;border:1px solid var(--line);border-radius:12px;padding:clamp(.9rem,2.3vw,1.35rem);min-width:0}
+.panel + .panel{margin-top:.9rem}
+.panel h2{font-size:1.24rem;line-height:1.25;margin:0 0 .35rem;font-weight:650}
+.panel h3{font-size:1.02rem;margin:1rem 0 .4rem}
+.panel p{margin:.35rem 0 .65rem}
+.panel p:last-child{margin-bottom:0}
+.panel-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.85rem}
+.panel-grid .panel{display:flex;flex-direction:column;align-items:flex-start;margin:0}
+.panel-grid .panel p{flex:1}
+.panel .primary,.panel .secondary{display:inline-block;font-family:inherit;cursor:pointer}
+.panel .primary{padding:.48rem .75rem}
+.panel a{overflow-wrap:anywhere}
+.note,.file-meta{font-size:.86rem;color:var(--muted)}
+.file-list{list-style:none;padding:0;margin:.65rem 0 0}
+.file-row{display:flex;align-items:center;justify-content:space-between;gap:.65rem;padding:.55rem .1rem;border-top:1px solid var(--line)}
+.file-row strong{font-size:.96rem}
+.file-meta{display:block;font-variant-numeric:tabular-nums}
+.file-row .secondary{flex-shrink:0;min-height:2rem;display:inline-flex;align-items:center}
+.form-label{display:block;font-size:.92rem;font-weight:650;margin:.6rem 0 .28rem}
+.input-row{display:flex;gap:.5rem;align-items:stretch;max-width:34rem}
+.input-row input{min-width:0;flex:1;border:1px solid #a6c0c6;border-radius:7px;padding:.47rem .55rem;color:var(--ink);font:inherit}
+.result-count,.status{font-size:.88rem;color:var(--muted)}
+.status{border-left:3px solid #359b88;background:#edf6f4;padding:.48rem .65rem}
+#certificados,#buscar{scroll-margin-top:.9rem}
+@media(max-width:930px){.hero-inner{padding-top:1.35rem;padding-bottom:1.55rem}}
+@media(max-width:710px){.panel-grid{grid-template-columns:1fr}}
+@media(max-width:550px){.hero-links a{font-size:.78rem}}
