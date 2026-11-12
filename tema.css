@@ -48,3 +48,9 @@ button:focus-visible,[tabindex="0"]:focus-visible{outline:3px solid #d39313;outl
 @media(max-width:930px){.hero-inner{padding-top:1.35rem;padding-bottom:1.55rem}}
 @media(max-width:710px){.panel-grid{grid-template-columns:1fr}}
 @media(max-width:550px){.hero-links a{font-size:.78rem}}
+
+.hero-top{display:flex;justify-content:space-between;align-items:center;gap:.6rem}
+.language-picker{display:flex;gap:.25rem;flex-shrink:0}
+.language-picker button{min-width:2.15rem;min-height:2rem;padding:.23rem .42rem;border:1px solid #a0c2c0;border-radius:6px;color:#fff;background:transparent;font:inherit;font-size:.8rem;font-weight:650;cursor:pointer}
+.language-picker button[aria-pressed="true"]{background:#e4f6f0;border-color:#e4f6f0;color:#123a3c}
+.language-picker button:hover:not([aria-pressed="true"]){background:#ffffff26}

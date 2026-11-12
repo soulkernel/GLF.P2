@@ -3,61 +3,68 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Certificados de capacitación | Producto 2 | GLF</title>
+  <title data-en="Training certificates | Product 2 | GLF">Certificados de capacitación | Producto 2 | GLF</title>
   <link rel="stylesheet" href="../../tema.css">
   <script type="module" src="./consulta.mjs"></script>
+<script src="../../idioma.js" defer></script>
 </head>
 <body>
-  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <a class="skip" href="#contenido"><span data-en="Skip to content">Saltar al contenido</span></a>
 <header class="hero">
   <div class="hero-inner">
-    <a class="brand" href="../../">GALÁPAGOS LIFE FUND · GLF</a>
-    <h1>Certificados de capacitación</h1>
-    <p class="subtitle">Inteligencia artificial aplicada · 14 al 16 de octubre de 2026 · 8 horas</p>
-    <nav class="hero-links" aria-label="Navegación de capacitación"><a href="#certificados">Buscar por nombre</a><a href="#buscar">Verificar por folio</a><a href="../">Volver a Capacitación</a><a href="../../">Producto 2</a></nav>
+    <div class="hero-top">
+      <a class="brand" href="../../">GALÁPAGOS LIFE FUND · GLF</a>
+      <div class="language-picker" role="group" aria-label="Idioma" data-en-aria-label="Language" hidden>
+        <button type="button" data-language="es" lang="es" aria-label="Español" aria-pressed="true">ES</button>
+        <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+      </div>
+    </div>
+    <h1><span data-en="Training certificates">Certificados de capacitación</span></h1>
+    <p class="subtitle"><span data-en="Applied artificial intelligence · October 14–16, 2026 · 8 hours">Inteligencia artificial aplicada · 14 al 16 de octubre de 2026 · 8 horas</span></p>
+    <nav class="hero-links" aria-label="Navegación de capacitación" data-en-aria-label="Training navigation"><a href="#certificados"><span data-en="Search by name">Buscar por nombre</span></a><a href="#buscar"><span data-en="Verify by folio number">Verificar por folio</span></a><a href="../"><span data-en="Back to training">Volver a Capacitación</span></a><a href="../../"><span data-en="Product 2">Producto 2</span></a></nav>
   </div>
 </header>
   <main class="page-content" id="contenido">
     <section class="panel" aria-labelledby="buscar">
-      <h2 id="buscar">Verificar por folio</h2>
+      <h2 id="buscar"><span data-en="Verify by folio number">Verificar por folio</span></h2>
       <form id="consulta">
-        <label class="form-label" for="folio">Folio del certificado</label>
-        <div class="input-row"><input id="folio" name="folio" placeholder="IA-GLF-001" required maxlength="18" autocomplete="off" spellcheck="false"><button class="primary" type="submit">Consultar</button></div>
+        <label class="form-label" for="folio"><span data-en="Certificate folio number">Folio del certificado</span></label>
+        <div class="input-row"><input id="folio" name="folio" placeholder="IA-GLF-001" required maxlength="18" autocomplete="off" spellcheck="false"><button class="primary" type="submit"><span data-en="Verify">Consultar</span></button></div>
       </form>
       <p id="estado" class="status" role="status">Introduce el folio que figura junto al código QR.</p>
-      <a id="descarga" class="secondary" hidden>Descargar PDF firmado</a>
+      <a id="descarga" class="secondary" hidden><span data-en="Download signed PDF">Descargar PDF firmado</span></a>
       <div id="cotejo" hidden>
-        <h3>Cotejar un PDF</h3>
-        <label class="form-label" for="pdf">Selecciona tu copia del certificado</label>
+        <h3><span data-en="Check a PDF">Cotejar un PDF</span></h3>
+        <label class="form-label" for="pdf"><span data-en="Select your copy of the certificate">Selecciona tu copia del certificado</span></label>
         <input id="pdf" type="file" accept=".pdf,application/pdf">
-        <p class="note">La comparación se hace en tu navegador.</p>
+        <p class="note"><span data-en="The file is checked in your browser.">La comparación se hace en tu navegador.</span></p>
         <p id="resultado" role="status"></p>
       </div>
     </section>
     <section id="certificados" class="panel" aria-labelledby="directorio-titulo">
-      <h2 id="directorio-titulo">Certificados por participante</h2>
+      <h2 id="directorio-titulo"><span data-en="Certificates by participant">Certificados por participante</span></h2>
       <div id="filtro-certificados" hidden>
-        <label class="form-label" for="nombre">Buscar por nombre o apellido</label>
-        <div class="input-row"><input id="nombre" type="search" placeholder="Escribe un nombre o apellido" autocomplete="off"></div>
+        <label class="form-label" for="nombre"><span data-en="Search by first or last name">Buscar por nombre o apellido</span></label>
+        <div class="input-row"><input id="nombre" type="search" placeholder="Escribe un nombre o apellido" autocomplete="off" data-en-placeholder="Enter a first or last name"></div>
       </div>
       <p id="conteo" class="result-count" role="status">12 certificados disponibles</p>
       <ul id="participantes" class="file-list">
-          <li class="file-row" data-folio="IA-GLF-005"><div><strong>Danilo Jaya</strong><span class="file-meta">IA-GLF-005</span></div><a class="secondary" href="./IA-GLF-005_Danilo.Jaya.pdf" download aria-label="Descargar certificado PDF de Danilo Jaya">Descargar PDF</a></li>
-          <li class="file-row" data-folio="IA-GLF-010"><div><strong>Danny Rueda</strong><span class="file-meta">IA-GLF-010</span></div><a class="secondary" href="./IA-GLF-010_Danny.Rueda.pdf" download aria-label="Descargar certificado PDF de Danny Rueda">Descargar PDF</a></li>
-          <li class="file-row" data-folio="IA-GLF-008"><div><strong>Danny Steve Páez Rojas</strong><span class="file-meta">IA-GLF-008</span></div><a class="secondary" href="./IA-GLF-008_Danny-Steve.Paez-Rojas.pdf" download aria-label="Descargar certificado PDF de Danny Steve Páez Rojas">Descargar PDF</a></li>
-          <li class="file-row" data-folio="IA-GLF-006"><div><strong>Dayana Mabel Cedeño López</strong><span class="file-meta">IA-GLF-006</span></div><a class="secondary" href="./IA-GLF-006_Dayana-Mabel.Cedeno-Lopez.pdf" download aria-label="Descargar certificado PDF de Dayana Mabel Cedeño López">Descargar PDF</a></li>
-          <li class="file-row" data-folio="IA-GLF-007"><div><strong>Gabriela Ayala</strong><span class="file-meta">IA-GLF-007</span></div><a class="secondary" href="./IA-GLF-007_Gabriela.Ayala.pdf" download aria-label="Descargar certificado PDF de Gabriela Ayala">Descargar PDF</a></li>
-          <li class="file-row" data-folio="IA-GLF-012"><div><strong>Jeiser Vernaza</strong><span class="file-meta">IA-GLF-012</span></div><a class="secondary" href="./IA-GLF-012_Jeiser.Vernaza.pdf" download aria-label="Descargar certificado PDF de Jeiser Vernaza">Descargar PDF</a></li>
-          <li class="file-row" data-folio="IA-GLF-003"><div><strong>Paulina Couenberg</strong><span class="file-meta">IA-GLF-003</span></div><a class="secondary" href="./IA-GLF-003_Paulina.Couenberg.pdf" download aria-label="Descargar certificado PDF de Paulina Couenberg">Descargar PDF</a></li>
-          <li class="file-row" data-folio="IA-GLF-004"><div><strong>Raquel Cedeño Mantilla</strong><span class="file-meta">IA-GLF-004</span></div><a class="secondary" href="./IA-GLF-004_Raquel.Cedeno-Mantilla.pdf" download aria-label="Descargar certificado PDF de Raquel Cedeño Mantilla">Descargar PDF</a></li>
-          <li class="file-row" data-folio="IA-GLF-011"><div><strong>Rosa León</strong><span class="file-meta">IA-GLF-011</span></div><a class="secondary" href="./IA-GLF-011_Rosa.Leon.pdf" download aria-label="Descargar certificado PDF de Rosa León">Descargar PDF</a></li>
-          <li class="file-row" data-folio="IA-GLF-001"><div><strong>Ulf Hardter</strong><span class="file-meta">IA-GLF-001</span></div><a class="secondary" href="./IA-GLF-001_Ulf.Hardter.pdf" download aria-label="Descargar certificado PDF de Ulf Hardter">Descargar PDF</a></li>
-          <li class="file-row" data-folio="IA-GLF-009"><div><strong>Verónica Santamaría</strong><span class="file-meta">IA-GLF-009</span></div><a class="secondary" href="./IA-GLF-009_Veronica.Santamaria.pdf" download aria-label="Descargar certificado PDF de Verónica Santamaría">Descargar PDF</a></li>
-          <li class="file-row" data-folio="IA-GLF-002"><div><strong>Xavier Serrano</strong><span class="file-meta">IA-GLF-002</span></div><a class="secondary" href="./IA-GLF-002_Xavier.Serrano.pdf" download aria-label="Descargar certificado PDF de Xavier Serrano">Descargar PDF</a></li>
+          <li class="file-row" data-folio="IA-GLF-005"><div><strong>Danilo Jaya</strong><span class="file-meta">IA-GLF-005</span></div><a class="secondary" href="./IA-GLF-005_Danilo.Jaya.pdf" download aria-label="Descargar certificado PDF de Danilo Jaya" data-en-aria-label="Download PDF certificate for Danilo Jaya"><span data-en="Download PDF">Descargar PDF</span></a></li>
+          <li class="file-row" data-folio="IA-GLF-010"><div><strong>Danny Rueda</strong><span class="file-meta">IA-GLF-010</span></div><a class="secondary" href="./IA-GLF-010_Danny.Rueda.pdf" download aria-label="Descargar certificado PDF de Danny Rueda" data-en-aria-label="Download PDF certificate for Danny Rueda"><span data-en="Download PDF">Descargar PDF</span></a></li>
+          <li class="file-row" data-folio="IA-GLF-008"><div><strong>Danny Steve Páez Rojas</strong><span class="file-meta">IA-GLF-008</span></div><a class="secondary" href="./IA-GLF-008_Danny-Steve.Paez-Rojas.pdf" download aria-label="Descargar certificado PDF de Danny Steve Páez Rojas" data-en-aria-label="Download PDF certificate for Danny Steve Páez Rojas"><span data-en="Download PDF">Descargar PDF</span></a></li>
+          <li class="file-row" data-folio="IA-GLF-006"><div><strong>Dayana Mabel Cedeño López</strong><span class="file-meta">IA-GLF-006</span></div><a class="secondary" href="./IA-GLF-006_Dayana-Mabel.Cedeno-Lopez.pdf" download aria-label="Descargar certificado PDF de Dayana Mabel Cedeño López" data-en-aria-label="Download PDF certificate for Dayana Mabel Cedeño López"><span data-en="Download PDF">Descargar PDF</span></a></li>
+          <li class="file-row" data-folio="IA-GLF-007"><div><strong>Gabriela Ayala</strong><span class="file-meta">IA-GLF-007</span></div><a class="secondary" href="./IA-GLF-007_Gabriela.Ayala.pdf" download aria-label="Descargar certificado PDF de Gabriela Ayala" data-en-aria-label="Download PDF certificate for Gabriela Ayala"><span data-en="Download PDF">Descargar PDF</span></a></li>
+          <li class="file-row" data-folio="IA-GLF-012"><div><strong>Jeiser Vernaza</strong><span class="file-meta">IA-GLF-012</span></div><a class="secondary" href="./IA-GLF-012_Jeiser.Vernaza.pdf" download aria-label="Descargar certificado PDF de Jeiser Vernaza" data-en-aria-label="Download PDF certificate for Jeiser Vernaza"><span data-en="Download PDF">Descargar PDF</span></a></li>
+          <li class="file-row" data-folio="IA-GLF-003"><div><strong>Paulina Couenberg</strong><span class="file-meta">IA-GLF-003</span></div><a class="secondary" href="./IA-GLF-003_Paulina.Couenberg.pdf" download aria-label="Descargar certificado PDF de Paulina Couenberg" data-en-aria-label="Download PDF certificate for Paulina Couenberg"><span data-en="Download PDF">Descargar PDF</span></a></li>
+          <li class="file-row" data-folio="IA-GLF-004"><div><strong>Raquel Cedeño Mantilla</strong><span class="file-meta">IA-GLF-004</span></div><a class="secondary" href="./IA-GLF-004_Raquel.Cedeno-Mantilla.pdf" download aria-label="Descargar certificado PDF de Raquel Cedeño Mantilla" data-en-aria-label="Download PDF certificate for Raquel Cedeño Mantilla"><span data-en="Download PDF">Descargar PDF</span></a></li>
+          <li class="file-row" data-folio="IA-GLF-011"><div><strong>Rosa León</strong><span class="file-meta">IA-GLF-011</span></div><a class="secondary" href="./IA-GLF-011_Rosa.Leon.pdf" download aria-label="Descargar certificado PDF de Rosa León" data-en-aria-label="Download PDF certificate for Rosa León"><span data-en="Download PDF">Descargar PDF</span></a></li>
+          <li class="file-row" data-folio="IA-GLF-001"><div><strong>Ulf Hardter</strong><span class="file-meta">IA-GLF-001</span></div><a class="secondary" href="./IA-GLF-001_Ulf.Hardter.pdf" download aria-label="Descargar certificado PDF de Ulf Hardter" data-en-aria-label="Download PDF certificate for Ulf Hardter"><span data-en="Download PDF">Descargar PDF</span></a></li>
+          <li class="file-row" data-folio="IA-GLF-009"><div><strong>Verónica Santamaría</strong><span class="file-meta">IA-GLF-009</span></div><a class="secondary" href="./IA-GLF-009_Veronica.Santamaria.pdf" download aria-label="Descargar certificado PDF de Verónica Santamaría" data-en-aria-label="Download PDF certificate for Verónica Santamaría"><span data-en="Download PDF">Descargar PDF</span></a></li>
+          <li class="file-row" data-folio="IA-GLF-002"><div><strong>Xavier Serrano</strong><span class="file-meta">IA-GLF-002</span></div><a class="secondary" href="./IA-GLF-002_Xavier.Serrano.pdf" download aria-label="Descargar certificado PDF de Xavier Serrano" data-en-aria-label="Download PDF certificate for Xavier Serrano"><span data-en="Download PDF">Descargar PDF</span></a></li>
       </ul>
-      <noscript><p class="note">Puedes descargar los PDF del listado. Activa JavaScript para filtrar por nombre o verificar un folio.</p></noscript>
+      <noscript><p class="note"><span data-en="You can download the PDFs from the list. Enable JavaScript to search by name or verify a folio number.">Puedes descargar los PDF del listado. Activa JavaScript para filtrar por nombre o verificar un folio.</span></p></noscript>
     </section>
   </main>
-  <footer class="site-footer"><p>Para validar la firma electrónica, usa <a href="https://www.firmadigital.gob.ec/firmaec-movil/" rel="noopener noreferrer">FirmaEC</a>.</p></footer>
+  <footer class="site-footer"><p><span data-en="To validate the electronic signature, use">Para validar la firma electrónica, usa</span> <a href="https://www.firmadigital.gob.ec/firmaec-movil/" rel="noopener noreferrer">FirmaEC</a>.</p></footer>
 </body>
 </html>
